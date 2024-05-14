@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administra tus Automóviles</title>
+  <link rel="stylesheet" href="./styles/index.css" />
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Automóviles</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+  <h1>Administra tus Automóviles</h1>
+</header>
+
+<main>
+      <form action="#" method="post">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" required>
+    
+        <label for="transaccion">Transacción:</label>
+        <select id="transaccion" name="transaccion" required>
+          <option value="venta">Venta</option>
+          <option value="alquiler">Alquiler</option>
+        </select>
+    
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" name="descripcion" rows="10" required></textarea>
+    
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio" min="0" required>
+    
+        <label for="puertas">Puertas:</label>
+        <input type="number" id="puertas" name="puertas" min="1" required>
+    
+        <label for="kms">Kilómetros:</label>
+        <input type="number" id="kms" name="kms" min="0" required>
+    
+        <label for="potencia">Potencia:</label>
+        <input type="number" id="potencia" name="potencia" min="0" required>
+    
+        <button type="submit">Guardar</button>
+      </form>
+</main>
+
+<footer class="footer seccion">
+    <div class="contenedor contenedor-footer">
+        <nav class="navegacion">
+            <a href="nosotros.html">Nosotros</a>
+            <a href="anuncios.html">Anuncios</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+    <p class="copyright">Todos los derechos Reservados 2024 &copy;</p>
+</footer>
+
+</body>
+</html>
